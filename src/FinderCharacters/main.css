@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    
+}
+.icons{
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.morty,.rick,.beth,.summer{
+    width: 30px;
+}
+.morty,.beth{
+    transform: rotate(-30deg);
+}
+.rick,.summer{
+    transform: rotate(30deg);
+}
+.container{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #A2D9CE;
+    margin-bottom: 30px;
+    font-size: 3em;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+.nombre{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+}
+
+input{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    color:#45B39D;
+    border: 2px solid #F9E79F;
+    -webkit-box-shadow: 5px 5px 12px 5px rgba(0,0,0,0.67); 
+box-shadow: 5px 5px 12px 5px rgba(249,231,159,0.67);
+}
+
+.search{
+    display: flex;
+    justify-content: space-around;
+}
+.result{
+    color: white;
+}
+img{
+    -webkit-box-shadow: 5px 5px 16px 1px rgba(0,0,0,0.67); 
+    box-shadow: 5px 5px 16px 1px rgba(162,271,206,0.67);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}

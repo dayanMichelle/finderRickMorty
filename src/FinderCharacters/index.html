@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="icons">
+      <img class="morty" src="./img/icons8-morty-smith-48.png" alt="" />
+      <img src="./img/icons8-rick-sanchez-48.png" alt="" class="rick" />
+      <img src="./img/icons8-beth-smith-100.png" alt="" class="beth" />
+      <img src="./img/icons8-summer-smith-100.png" alt="" class="summer" />
+    </div>
+
+    <div class="container">
+      <div class="title">
+        <h1>Buscador de personajes Ricky & Morty</h1>
+        <div class="search">
+          <input type="text" oninput="recorrer(this.value)" placeholder="ingrese nombre" id="search" />
+        </div>
+      </div>
+      <div id="result" class="result">
+       
+          <h2 id="nombre" class="nombre"></h2>
+          <p id="status"></p>
+          <p id="species"></p>
+          <p id="gender"></p>
+          <p id="created"></p>
+        
+      </div>
+    </div>
+
+    <script src="../utils/fetchData.js"></script>
+    <script src="./challenge.js"></script>
+  </body>
+</html>

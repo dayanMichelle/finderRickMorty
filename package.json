@@ -1,0 +1,21 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "Aprendiendo asincronismo con js ",
+  "main": "src/index.js",
+  "scripts": {
+   "callback": "node src/callback/index.js",
+   "callback:challenge": "node src/callback/challenge.js",
+   "promise": "node src/promise/index.js",
+   "async": "node src/async/index.js",
+   "async:challenge": "node src/async/challenge.js",
+   "promise:challenge": "node src/promise/challenge.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "MIT",
+  "license": "MIT"
+}
